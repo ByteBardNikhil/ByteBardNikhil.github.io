@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    list-style-type: none;
+
+}
+div{
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+body{
+    background-color: grey;
+}
+.container{
+   position: relative;
+  
+}
+
+
+ul li
+{
+
+    border:2px solid wheat ;
+    background-color: aquamarine;
+    margin-left: 1px;
+    margin-top: 0.5px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 3px;
+    float: left;
+    border-radius: 15px;
+    line-height: 30px;
+    position: relative;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+ul ul{
+    display: none;
+    position: absolute;
+    
+}
+ul ul li,ul ul ul li{
+   left: 80px;
+   top: 10px;
+
+  
+}
+
+ul li:hover{
+    color: red;
+    background-color: brown;
+}
+ul li:hover > ul{
+    position: absolute;
+    left: 20px;
+    display: block;
+
+}
+
+
+
+
