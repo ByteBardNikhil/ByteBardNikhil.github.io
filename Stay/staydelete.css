@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.header{
+    background-color: lightblue;
+    color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    
+    }
+    .header a{
+        color: black;
+        background-color: rgb(26, 172, 172);
+        border-radius: 10px;
+        border: 2px solid rgb(246, 249, 250);
+        margin: 2px;
+       
+    }
+    .header a:hover,li a:hover{
+        background-color: rgb(31, 199, 255);
+        color: black;
+    }
+    .dropdown{
+        position: relative;
+        
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+    }
+    
+    .dropdown:hover .dropdown-content{
+        display: block;
+     }
+     ul{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        background-color: lightblue;
+    }
+    div ul ul{
+    
+        position: fixed;
+           background-color: lightblue;
+           width: 100%;
+           border-radius: 10px;
+         
+           
+       }
+       li a{
+        display: block;
+        padding: 10px;
+        background-color: lightblue;
+        color: black;
+        
+       
+    }
+    /*------------------Header Section Css Ends----------------*/
+
+    img{
+   
+        object-fit: cover;
+        width: 50%;
+        border-radius: 10px;
+        height: 50vh;
+        float: left;
+    
+    
+    
+    }
+    .images{grid-area: images;
+        background-color: lightgray;
+    }
+    .images h1{
+    
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color:rgb(241, 137, 95);
+        border: 2px solid white;
+        text-align: center;
+        
+    
+    }
+    .images h1:hover{
+        background-color: rgb(200, 91, 47);
+        color: white;
+    }
+    /*----------------Images---------*/
+
+.spaceAndamenities{
+    display: grid;
+    grid-template-columns: 60% 30%;
+
+}
+.similarResidence{
+
+}
+.mainfooter{
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100%;
+    
+  
+}

@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'Font-Black';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-Black'),
+    url('/fonts/CentraNo1-Black.woff2') format('woff2'),
+    url('/fonts/CentraNo1-Black.woff') format('woff'),
+    url('/fonts/CentraNo1-Black.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-BlackItalic';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-BlackItalic'),
+    url('/fonts/CentraNo1-BlackItalic.woff2') format('woff2'),
+    url('/fonts/CentraNo1-BlackItalic.woff') format('woff'),
+    url('/fonts/CentraNo1-BlackItalic.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-Bold';
+  font-style: normal;
+  font-weight: 300;
+  font-display: block;
+  src: local('CentraNo1-Bold'),
+    url('/fonts/CentraNo1-Bold.woff2') format('woff2'),
+    url('/fonts/CentraNo1-Bold.woff') format('woff'),
+    url('/fonts/CentraNo1-Bold.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-BoldItalic';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-BoldItalic'),
+    url('/fonts/CentraNo1-BoldItalic.woff2') format('woff2'),
+    url('/fonts/CentraNo1-BoldItalic.woff') format('woff'),
+    url('/fonts/CentraNo1-BoldItalic.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-Book';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-Book'),
+    url('/fonts/CentraNo1-Book.woff2') format('woff2'),
+    url('/fonts/CentraNo1-Book.woff') format('woff'),
+    url('/fonts/CentraNo1-Book.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-BookItalic';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-BookItalic'),
+    url('/fonts/CentraNo1-BookItalic.woff2') format('woff2'),
+    url('/fonts/CentraNo1-BookItalic.woff') format('woff'),
+    url('/fonts/CentraNo1-BookItalic.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-Extrabold';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-Extrabold'),
+    url('/fonts/CentraNo1-Extrabold.woff2') format('woff2'),
+    url('/fonts/CentraNo1-Extrabold.woff') format('woff'),
+    url('/fonts/CentraNo1-Extrabold.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-ExtraboldItalic';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-ExtraboldItalic'),
+    url('/fonts/CentraNo1-ExtraboldItalic.woff2') format('woff2'),
+    url('/fonts/CentraNo1-ExtraboldItalic.woff') format('woff'),
+    url('/fonts/CentraNo1-ExtraboldItalic.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-Hairline';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-Hairline'),
+    url('/fonts/CentraNo1-Hairline.woff2') format('woff2'),
+    url('/fonts/CentraNo1-Hairline.woff') format('woff'),
+    url('/fonts/CentraNo1-Hairline.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-HairlineItalic';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-HairlineItalic'),
+    url('/fonts/CentraNo1-HairlineItalic.woff2') format('woff2'),
+    url('/fonts/CentraNo1-HairlineItalic.woff') format('woff'),
+    url('/fonts/CentraNo1-HairlineItalic.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-Light';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-Light'),
+    url('/fonts/CentraNo1-Light.woff2') format('woff2'),
+    url('/fonts/CentraNo1-Light.woff') format('woff'),
+    url('/fonts/CentraNo1-Light.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-LightItalic';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-LightItalic'),
+    url('/fonts/CentraNo1-LightItalic.woff2') format('woff2'),
+    url('/fonts/CentraNo1-LightItalic.woff') format('woff'),
+    url('/fonts/CentraNo1-LightItalic.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-Medium';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-Medium'),
+    url('/fonts/CentraNo1-Medium.woff2') format('woff2'),
+    url('/fonts/CentraNo1-Medium.woff') format('woff'),
+    url('/fonts/CentraNo1-Medium.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-MediumItalic';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-MediumItalic'),
+    url('/fonts/CentraNo1-MediumItalic.woff2') format('woff2'),
+    url('/fonts/CentraNo1-MediumItalic.woff') format('woff'),
+    url('/fonts/CentraNo1-MediumItalic.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-Thin';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-Thin'),
+    url('/fonts/CentraNo1-Thin.woff2') format('woff2'),
+    url('/fonts/CentraNo1-Thin.woff') format('woff'),
+    url('/fonts/CentraNo1-Thin.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'Font-ThinItalic';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: local('CentraNo1-ThinItalic'),
+    url('/fonts/CentraNo1-ThinItalic.woff2') format('woff2'),
+    url('/fonts/CentraNo1-ThinItalic.woff') format('woff'),
+    url('/fonts/CentraNo1-ThinItalic.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}

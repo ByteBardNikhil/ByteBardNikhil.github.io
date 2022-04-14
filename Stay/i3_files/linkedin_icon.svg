@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="About-Us" transform="translate(-332 -225)">
+    <g id="footer">
+      <g id="Group_3" data-name="Group 3">
+        <g id="linkedin-fb">
+          <path id="Shape" d="M351,225H337a5,5,0,0,0-5,5v14a5,5,0,0,0,5,5h14a5,5,0,0,0,5-5V230A5,5,0,0,0,351,225Zm-11,19h-3V233h3Zm-1.5-12.268a1.764,1.764,0,1,1,1.75-1.764A1.758,1.758,0,0,1,338.5,231.732ZM352,244h-3v-5.6c0-3.368-4-3.113-4,0V244h-3V233h3v1.765c1.4-2.586,7-2.777,7,2.476Z" fill="#60bfa9"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

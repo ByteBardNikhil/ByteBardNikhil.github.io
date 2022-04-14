@@ -1,0 +1,358 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+
+}
+.header{grid-area: header;
+    background-color: lightblue;
+    color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    
+    }
+img{
+   
+    object-fit: cover;
+    width: 50%;
+    border-radius: 10px;
+    height: 50vh;
+    float: left;
+}
+
+
+
+
+
+.images{grid-area: images;
+    background-color: lightgray;
+}
+.images h1{
+    
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:rgb(241, 137, 95);
+    border: 2px solid white;
+    text-align: center;
+    
+
+}
+.images h1:hover{
+    background-color: rgb(200, 91, 47);
+    color: white;
+}
+.roomimg{
+    display: grid;
+  
+    grid-template-columns: auto auto;
+
+
+}
+
+
+.space{grid-area: space;
+display: grid;
+grid-template-columns: auto ;
+
+}
+.amenities{grid-area: amenities;
+text-align: center;}
+.info{grid-area: info;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto auto auto;
+border: 1px solid rgb(167, 164, 164);
+border-radius: 10px;
+margin: 10px;
+text-align: center;
+}
+.info h1{
+    border: 1px solid rgb(167, 164, 164);
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.box div{
+    border: 1px solid rgb(167, 164, 164);
+    border-radius: 10px;
+    margin: 10px;
+}
+.box div:hover{
+    background-color: lightgray;
+}
+
+.fast{
+    text-align: left;
+    font-size: 50px;
+    background-color: rgb(235, 80, 80);
+    border-radius: 10px;
+    margin: 10px;
+}
+.rules{grid-area: rules;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto auto auto auto;
+border: 2px solid lightgray;
+border-radius: 10px;
+margin: 10px;
+
+}
+.rules div{
+    padding: 10px;
+}
+.footer{grid-area: footer;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+.footer ul li{
+    background-color: rgb(235, 80, 80);
+}
+.container{
+    display: grid;
+    grid-template-columns: auto  ;
+    grid-template-areas: "header" "images" "space" "amenities" "info" "rules" "footer" ;
+    border: 1px solid black;
+}
+
+.gridshow
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    text-align: center;
+
+    
+   
+}
+.amenities h1{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.amenities h1:hover{
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.space h1{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.space h1:hover{
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.gridshow div{
+    font-size: 24px;
+    border: 2px solid rgb(247, 248, 248);
+    text-align: center;
+    
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.gridshow div:hover{
+    background-color: lightgray;
+}
+ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: lightblue;
+}
+div ul ul{
+
+    position: fixed;
+       background-color: lightblue;
+       width: 100%;
+       border-radius: 10px;
+     
+       
+   }
+  
+    
+  .header a{
+      color: black;
+      background-color: rgb(26, 172, 172);
+      border-radius: 10px;
+      border: 2px solid rgb(246, 249, 250);
+      margin: 2px;
+     
+  } 
+  .rules a{
+      color: black;
+      font-size: 10px;
+      
+      
+  }
+   
+ li a{
+       display: block;
+       padding: 10px;
+       background-color: lightblue;
+       color: black;
+       
+      
+   }
+  .header a:hover,li a:hover{
+       background-color: rgb(31, 199, 255);
+       color: black;
+   }
+   .dropdown{
+       position: relative;
+       
+   }
+   .dropdown-content{
+       display: none;
+       position: absolute;
+   }
+   
+   .dropdown:hover .dropdown-content{
+       display: block;
+    }
+  .safety h2,.safety, .landmark{
+       border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 10px;
+
+   }
+
+   .safety h2{
+       padding: 10px;
+       background-color: lightblue;
+       text-shadow: 2px 2px 5px blue;
+    
+       
+   }
+   .safety section{
+       display: grid;
+       grid-template-columns: auto auto auto;
+       text-align: center;
+
+   }
+   .safety section div{
+       border: 2px solid lightgray;
+       margin: 10px;
+       border-radius: 10px;
+
+   }
+   .safety section div:hover{
+       background-color: lightgray;
+   }
+   .footer{
+      margin: 10px;
+      border: 2px solid rgb(197, 90, 90);
+      border-radius: 10px;
+      padding: 10px;
+
+   }
+   
+   .footer section{
+      margin-top: 30px;
+       padding: 10px;
+       
+   }
+   .footer section input{
+       width: 95%;
+       height: 5vh;
+       font-size: 20px;
+       padding: 10px;
+       margin: 10px;
+   }
+   button{
+    width: 95%;
+    height: 5vh;
+    font-size: 20px;
+
+    margin: 10px;
+
+
+   }
+  
+
+   .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  .whatsapp
+  {
+    padding: 10px; 
+    border: 1px solid lightgrey; 
+    width: 95%; 
+    height: 5vh; 
+    margin: 10px;
+  }
+  .whatsapp p{
+      display: inline;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+   
+  
+
