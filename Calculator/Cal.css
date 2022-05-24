@@ -81,3 +81,10 @@ table{
     box-shadow: inset 2px 2px 5px black,2px 2px 5px black;
     border-radius: 10px;
 }
+.owner h1{
+    text-align: center;
+    margin-top: 2%;
+    font-family: cursive;
+    box-shadow: inset 2px 2px 5px black;
+    text-shadow: 2px 2px rgb(77, 28, 28);
+}
