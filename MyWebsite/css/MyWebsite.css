@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    color: white;
+    background-color: black;
+}
+#menu{
+    list-style: none;
+    margin: 0px;
+padding: 0px;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    display: block;
+    color: white;
+  padding: 20px 20px;
+}
+#menu li a:hover{
+    text-decoration: none;
+    background-color: #555a65;
+    color: white;
+    
+}
+#logo{
+    margin-top: 10px;
+    background-color: black;
+    font-size: large;
+    text-align: center;
+}
+#logo::after,#logo::before
+{
+    background-color: rgb(216, 103, 33);
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    margin: 10px auto;
+
+
+    
+}
+
+
+.pink{
+    background-color: pink;
+}
+#banner{
+    background: url('../images/peter-vanosdall-ktpyjH2h9xs-unsplash.jpg') no-repeat 0 0;
+ background-size: cover;
+    height: 400px;
+}
+.banner-title h1{
+    background-color: rgba(255,255,255,0.7);
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+.banner-title{
+    padding: 5rem;
+}
+.banner-title p.lead{
+    background-color: rgba(71, 66, 18,0.7);
+    padding: 10px;
+    color: whitesmoke;
+    
+
+}
+.service-box,.section-head{
+    text-align: center;
+}
+.service-box span{
+    font-size: 70px;
+    margin: 30px;
+    margin-bottom: 15px;
+}
+.section
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.section h2.section-head::after{
+    
+    background-color: rgb(216, 103, 33);
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+
+}
+.para{
+    margin-top: 20px;
+}
+.section .row .col-lg-6{
+    border: 1px solid rgba(232, 220, 220,0.4);
+    border-radius: 20px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+img{
+    border-radius: 20px;
+    
+}
+#testimonials{
+    background: url('../images/Testimonials.jpg') no-repeat 0 0;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+    border-radius: 20px;
+}
+#testimonials::before{
+    background-color: rgba(52,73,94,0.4);
+    position: absolute ;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#news .col-md-3 img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+
+}
+.news-post img{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+.news-post h3 a{
+    color: rgb(184, 52, 52);
+
+}
+.news-post{
+    margin-bottom: 40px;
+}
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+address{
+    margin-top: 20px;
+}
+
+#footer-sidebar{
+    color: white;
+    background-color: #34495e;
+    padding: 20px 0;
+}
+
+#footer-sidebar .col-md-4{
+    text-align: center;
+}
+#footer-sidebar .col-md-4 ul li{
+    list-style-type: none;
+    padding: 3px;
+    
+    
+}
+#footer-sidebar .col-md-4 ul li a{
+    text-decoration: none;
+    color: white;
+}
+#footer-sidebar .col-md-4 h4{
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+#footer-sidebar .col-md-4 h4::after{
+    background-color: rgb(216, 103, 33);
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 20px auto;
+       
+  
+}
+#social-icons{
+   list-style-type: none;
+   color: white;
+   margin: 0px;
+   padding: 0px;
+
+}
+.float-md-right li a{
+    color: black;
+    display: inline;
+}
+#footer {
+    color: white;
+background-color: #2c3e50;
+}
+#social-icons li{
+        display: inline-block;
+        padding-left: 5px;
+        
+
+}
+#social-icons li a{
+    color: white;
+    font-size: 23px;
+    padding: 0 10px 0 10px;
+}
+.main-footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    
+  
+}
+.main-footer .container{
+    border: 1px solid rgba(255,255,255,0.8);
+    border-radius: 20px;
+    padding-top: 15px;
+
+}
+.main-footer .container:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+
+    
+
+@media only screen and (max-width: 768px) {
+    #testimonials
+    {
+        text-align: center;
+        margin-bottom: 30px;
+        
+       
+    }
+    #testimonials .col-sm-6{
+        margin-top: 10px;
+       
+    }
+    .service-box{
+        margin-bottom: 30px;
+    }
+    .news-post{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+   
+    #footer-sidebar .col-md-4{
+        margin-bottom: 30px;
+      
+
+    }
+   
+   #footer{ 
+    text-align: center;
+   }    
+   #social-icons{
+    margin-top: 10px;
+   }
+   #logo{
+    text-align: center;
+    margin: 20px 0;
+   }
+   #menu{
+    text-align: center;
+   }
+  
+   
+   #news .col-md-3 img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+#banner{
+    background: url('../images/peter-vanosdall-ktpyjH2h9xs-unsplash.jpg') no-repeat 0 0;
+ background-size: cover;
+    height: 500px;
+}
+#menu li a{
+    display: block;
+    color: white;
+  padding: 10px 10px;
+}
+.margin-class{
+    margin-bottom: 30px;
+}
+
+}
+@media (max-width:1024px) {
+    #menu{
+        text-align: center;
+    }
+
+    
+    
+}
+
+
+
+
+
